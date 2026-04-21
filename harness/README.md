@@ -24,15 +24,15 @@ This plugin is a Claude-Code-native implementation of those practices.
 Via the marketplace at the repo root:
 
 ```bash
-/plugin marketplace add mbarretta/agent-skills
-/plugin install harness@agent-skills
+/plugin marketplace add mbarretta/mab-agent-skills
+/plugin install harness@mab-agent-skills
 ```
 
 Or clone + symlink, see the [root README](../README.md#manual-install-no-marketplace).
 
 ## Usage
 
-After install, the skill is discovered as `/harness` (or `agent-skills:harness` depending on your install).
+After install, the skill is discovered as `/harness` (or `mab-agent-skills:harness` depending on your install).
 
 | You type | What happens |
 |---|---|

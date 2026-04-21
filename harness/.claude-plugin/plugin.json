@@ -6,8 +6,8 @@
     "name": "Michael Barretta",
     "url": "https://github.com/mbarretta"
   },
-  "homepage": "https://github.com/mbarretta/agent-skills",
-  "repository": "https://github.com/mbarretta/agent-skills",
+  "homepage": "https://github.com/mbarretta/mab-agent-skills",
+  "repository": "https://github.com/mbarretta/mab-agent-skills",
   "license": "MIT",
   "keywords": [
     "claude-code",

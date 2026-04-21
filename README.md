@@ -1,4 +1,4 @@
-# agent-skills
+# mab-agent-skills
 
 A personal [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin marketplace — skills, agents, and recipes I want to carry between environments without hand-copying files.
 
@@ -9,22 +9,22 @@ A personal [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin 
 Add this repo as a Claude Code marketplace, then install plugins individually:
 
 ```bash
-/plugin marketplace add mbarretta/agent-skills
-/plugin install harness@agent-skills
+/plugin marketplace add mbarretta/mab-agent-skills
+/plugin install harness@mab-agent-skills
 ```
 
-Claude Code stores plugin files under `~/.claude/plugins/cache/agent-skills/…`; skills and agents appear automatically.
+Claude Code stores plugin files under `~/.claude/plugins/cache/mab-agent-skills/…`; skills and agents appear automatically.
 
 ### Manual install (no marketplace)
 
 If you just want one skill without the plugin machinery, clone and symlink:
 
 ```bash
-git clone https://github.com/mbarretta/agent-skills ~/src/agent-skills
+git clone https://github.com/mbarretta/mab-agent-skills ~/src/mab-agent-skills
 
 # harness
-ln -s ~/src/agent-skills/harness/skills/harness ~/.claude/skills/harness
-ln -s ~/src/agent-skills/harness/agents/harness-evaluator.md ~/.claude/agents/harness-evaluator.md
+ln -s ~/src/mab-agent-skills/harness/skills/harness ~/.claude/skills/harness
+ln -s ~/src/mab-agent-skills/harness/agents/harness-evaluator.md ~/.claude/agents/harness-evaluator.md
 ```
 
 ## Plugins in this marketplace
