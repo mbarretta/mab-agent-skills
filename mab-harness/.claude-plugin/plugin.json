@@ -1,5 +1,5 @@
 {
-  "name": "harness",
+  "name": "mab-harness",
   "description": "Drive structured software-or-design work through a plan → implement → evaluate loop with a skeptical subagent gate. Distills best practices from Anthropic's harness-design and effective-harnesses posts, OpenAI's Codex harness-engineering essay, and Huntley's Ralph Wiggum technique into a Claude-Code-native skill. No Python, no per-project config; state lives in one JSON per work item.",
   "version": "0.1.0",
   "author": {

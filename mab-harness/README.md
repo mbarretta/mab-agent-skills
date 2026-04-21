@@ -25,7 +25,7 @@ Via the marketplace at the repo root:
 
 ```bash
 /plugin marketplace add mbarretta/mab-agent-skills
-/plugin install harness@mab-agent-skills
+/plugin install mab-harness@mab-agent-skills
 ```
 
 Or clone + symlink, see the [root README](../README.md#manual-install-no-marketplace).

@@ -7,8 +7,8 @@
   "description": "A personal marketplace of Claude Code plugins — skills, agents, and recipes I want to carry between environments.",
   "plugins": [
     {
-      "name": "harness",
-      "source": "./harness",
+      "name": "mab-harness",
+      "source": "./mab-harness",
       "description": "Plan → implement → evaluate loop with a skeptical subagent gate, plan JSON state, and research-backed practices. Supports both dev and design work."
     }
   ]

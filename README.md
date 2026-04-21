@@ -10,7 +10,7 @@ Add this repo as a Claude Code marketplace, then install plugins individually:
 
 ```bash
 /plugin marketplace add mbarretta/mab-agent-skills
-/plugin install harness@mab-agent-skills
+/plugin install mab-harness@mab-agent-skills
 ```
 
 Claude Code stores plugin files under `~/.claude/plugins/cache/mab-agent-skills/…`; skills and agents appear automatically.
@@ -23,15 +23,15 @@ If you just want one skill without the plugin machinery, clone and symlink:
 git clone https://github.com/mbarretta/mab-agent-skills ~/src/mab-agent-skills
 
 # harness
-ln -s ~/src/mab-agent-skills/harness/skills/harness ~/.claude/skills/harness
-ln -s ~/src/mab-agent-skills/harness/agents/harness-evaluator.md ~/.claude/agents/harness-evaluator.md
+ln -s ~/src/mab-agent-skills/mab-harness/skills/harness ~/.claude/skills/harness
+ln -s ~/src/mab-agent-skills/mab-harness/agents/harness-evaluator.md ~/.claude/agents/harness-evaluator.md
 ```
 
 ## Plugins in this marketplace
 
 | Plugin | What it does |
 |---|---|
-| [harness](./harness/) | Plan → implement → evaluate loop with a skeptical subagent gate. Plan JSON state, critical/non-critical acceptance criteria, active evaluator verification (Playwright when UI touched), capability-gap capture on retry exhaustion. Distilled from Anthropic / OpenAI / Ralph Wiggum research. |
+| [mab-harness](./mab-harness/) | Plan → implement → evaluate loop with a skeptical subagent gate. Plan JSON state, critical/non-critical acceptance criteria, active evaluator verification (Playwright when UI touched), capability-gap capture on retry exhaustion. Distilled from Anthropic / OpenAI / Ralph Wiggum research. |
 
 ## Requirements
 
