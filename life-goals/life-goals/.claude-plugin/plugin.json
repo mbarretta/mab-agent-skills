@@ -1,7 +1,0 @@
-{
-  "name": "life-goals",
-  "displayName": "Life Goals",
-  "version": "1.0.0",
-  "description": "A living goal system for defining north star values, cascading them into near and mid-term goals across all life domains (health, financial, family, career, personal growth, legacy), and building atomic habits to achieve them. Supports initial setup, periodic reviews, regeneration, and quick check-ins.",
-  "skills": "auto"
-}
