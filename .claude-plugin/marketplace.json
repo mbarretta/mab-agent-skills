@@ -14,13 +14,13 @@
     {
       "name": "life-goals",
       "displayName": "Life Goals",
-      "source": "life-goals",
+      "source": "./life-goals",
       "description": "A living goal system: north star values \u2192 time-horizon cascade (30yr\u219290-day) \u2192 atomic habits. Six life domains: health, financial, family, career, growth, legacy."
     },
     {
       "name": "se-leader",
       "displayName": "SE Leader",
-      "source": "se-leader",
+      "source": "./se-leader",
       "description": "SE leader work planning: quarterly quota decomposition, SE-driven pipeline generation, team development (1:1s + Obsidian integration), market intelligence."
     }
   ]
