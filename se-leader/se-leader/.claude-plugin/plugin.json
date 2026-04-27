@@ -1,0 +1,7 @@
+{
+  "name": "se-leader",
+  "displayName": "SE Leader",
+  "version": "1.0.0",
+  "description": "Work planning system for a Sales Engineering leader. Covers quarterly goal-setting (quota decomposition, pipeline targets, SE-driven pipegen, team enablement), weekly reviews (pipeline health, activity tracking, team coaching, market signals), ongoing market intelligence capture, and quarter-close retrospectives. Integrates with Obsidian vault for 1:1 context.",
+  "skills": "auto"
+}
